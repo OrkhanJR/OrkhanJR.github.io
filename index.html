@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <title>Дата и время через заданное количество часов</title>
+</head>
+<body>
+    <h1>Определение новой даты и времени</h1>
+    
+    <form id="dateForm">
+        <label for="date">Введите дату и время (DD-MM-YYYY HH:MM):</label><br>
+        <input type="datetime-local" id="date" name="date"><br><br>
+        
+        <label for="hours">Введите количество часов:</label><br>
+        <input type="number" id="hours" name="hours"><br><br>
+        
+        
+    </form>
+
+    <button id="calc">Вычислить</button>
+    
+    <h2>Результат:</h2>
+    <p id="result"></p>
+
+    
+</body>
+</html>
